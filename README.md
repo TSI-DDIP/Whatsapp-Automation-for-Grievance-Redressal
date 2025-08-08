@@ -17,8 +17,9 @@ streamlit run whatsapp_bulk_sender.py
 
 Data Format: Excel/Google Sheets with columns: `Number` | `Message`
 
-Neccessary Package needed to be Pre-installed:
+Neccessary Package needed to be Pre-installed: (one by one)
 
+```bash
 pip install streamlit
 pip install pandas
 pip install requests  
@@ -27,3 +28,4 @@ pip install webdriver-manager
 pip install openpyxl
 pip install xlrd
 pip install --upgrade webdriver-manager
+```
